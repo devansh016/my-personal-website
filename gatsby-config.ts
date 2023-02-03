@@ -8,13 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteTitle: `Devansh Chaudhary`,
+    siteTitleAlt: `Devansh Chaudhary`,
+    siteHeadline: `Devansh Chaudhary`,
+    siteUrl: `https://devanshchaudhary.tech`,
+    siteDescription: `I am a young and energetic professional, looking for challenging opportunities to grow my skills. My intellectual curiosity also drives me to be a lifelong learner, and so I'm seeking to connect with like-minded people to learn and grow more.`,
+    siteImage: `./devansh-chaudhary-512x512.jpg`,
+    author: `@devansh016`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -34,12 +34,20 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Linkedin`,
+            url: `https://linkedin.com/in/devansh-chaudhary/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Github`,
+            url: `https://github.com/devansh016`,
+          },
+          {
+            name: `Twitter`,
+            url: `https://twitter.com/devansh016`,
+          },
+          {
+            name: `Resume`,
+            url: `/devansh-resume.pdf`,
           },
         ],
       },
@@ -69,9 +77,9 @@ const config: GatsbyConfig = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-chrome-512x512.jpg`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/jpg`,
           },
         ],
       },

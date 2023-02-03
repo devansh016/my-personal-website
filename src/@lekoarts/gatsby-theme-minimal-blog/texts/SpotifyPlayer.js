@@ -13,7 +13,7 @@ import * as React from "react"
 // Size presets, defined by Spotify
 const sizePresets = {
   large: {
-    width: 300,
+    width: 600,
     height: 380,
   },
   compact: {
